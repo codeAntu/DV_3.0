@@ -24,7 +24,7 @@
 
 @layer components {
   .component {
-    @apply flex min-h-[100dvh] justify-center bg-[#FEFEFE];
+    @apply flex min-h-[100dvh] justify-center bg-[#f7f7f7];
   }
   .maxWidth {
     @apply w-full max-w-xl p-5;
@@ -430,6 +430,22 @@
   .swiper-img {
     @apply aspect-[2/1] h-full w-full rounded-3xl object-cover;
   }
+  
+  .profileText {
+    @apply text-base font-semibold text-black/40 pt-1;
+  }
+  .profileCard {
+    @apply flex items-center justify-start gap-3 rounded-lg bg-white px-3 py-4;
+  }
+  .profileCardIcon {
+    @apply w-7;
+  }
+  .profileCardText {
+    @apply text-base font-medium text-black/80;
+  }
+
+
+
 }
 
 .animateFedIn {
