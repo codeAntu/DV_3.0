@@ -65,7 +65,7 @@
     @apply w-full bg-transparent px-3 py-4 text-sm font-semibold text-black/80 outline-none;
   }
   .input::placeholder {
-    @apply text-black/30;
+    @apply text-accent;
   }
   .inputIcon {
     @apply w-[22px];

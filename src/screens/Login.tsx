@@ -10,7 +10,7 @@ export default function Login() {
           </div>
         </div>
         <form action=''>
-          <div className='flex flex-col gap-10'>
+          <div className='flex flex-col gap-16'>
             <div className='flex flex-col gap-3'>
               <div className='inputContainer'>
                 <div className='inputText'>Phone Number</div>
@@ -19,7 +19,7 @@ export default function Login() {
                   <input type='text' className='input' placeholder='Enter your phone number' />
                 </div>
               </div>
-              <div className='inputContainer'>
+              {/* <div className='inputContainer'>
                 <div className='inputText'>Password</div>
                 <div className='inputBox'>
                   <img src='./icons/key.svg' alt='' className='inputIcon' />
@@ -28,7 +28,7 @@ export default function Login() {
               </div>
               <div className='px-2 pb-1 text-right text-sm text-accent opacity-90'>
                 <a href=''>Forget password?</a>
-              </div>
+              </div> */}
             </div>
             <div className='flex flex-col gap-3'>
               <button className='button' type='submit'>
@@ -41,6 +41,8 @@ export default function Login() {
               </div>
               <button className='button2'>Register</button>
             </div>
+            <div></div>
+            <div></div>
           </div>
         </form>
       </div>
