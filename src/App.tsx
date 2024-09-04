@@ -6,6 +6,8 @@ import Login from './screens/Login'
 import Register from './screens/Register'
 import Slider from './screens/Slider'
 import Otp from './screens/Otp'
+import QR from './screens/QR'
+import UPI from './screens/UPI'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +18,9 @@ function App() {
       {/* <Login /> */}
       {/* <Register /> */}
       {/* <Slider /> */}
-      <Otp />
+      {/* <Otp /> */}
+      {/* <QR /> */}
+      <UPI />
     </>
   )
 }
