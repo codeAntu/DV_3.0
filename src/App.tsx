@@ -8,6 +8,7 @@ import Slider from './screens/Slider'
 import Otp from './screens/Otp'
 import QR from './screens/QR'
 import UPI from './screens/UPI'
+import LiveReport from './screens/LiveReport'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +21,8 @@ function App() {
       {/* <Slider /> */}
       {/* <Otp /> */}
       {/* <QR /> */}
-      <UPI />
+      {/* <UPI /> */}
+      <LiveReport />
     </>
   )
 }
