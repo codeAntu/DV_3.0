@@ -9,6 +9,13 @@ import Otp from './screens/Otp'
 import QR from './screens/QR'
 import UPI from './screens/UPI'
 import LiveReport from './screens/LiveReport'
+import Ranking from './screens/Ranking'
+import Notification from './screens/Notification'
+import Refer from './screens/Refer'
+import MyFamily from './screens/MyFamily'
+import KYC from './screens/KYC'
+import Withdraw from './screens/Withdraw'
+import KYCScreen from './screens/KYCScreen'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,7 +29,14 @@ function App() {
       {/* <Otp /> */}
       {/* <QR /> */}
       {/* <UPI /> */}
-      <LiveReport />
+      {/* <LiveReport /> */}
+      {/* <Ranking /> */}
+      {/* <Notification /> */}
+      {/* <Refer /> */}
+      {/* <MyFamily /> */}
+      {/* <KYC /> */}
+      {/* <Withdraw /> */}
+      <KYCScreen />
     </>
   )
 }
