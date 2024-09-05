@@ -17,6 +17,7 @@ import KYC from './screens/KYC'
 import Withdraw from './screens/Withdraw'
 import KYCScreen from './screens/KYCScreen'
 import Profile from './screens/Profile'
+import Balance from './screens/Balance'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -38,7 +39,8 @@ function App() {
       {/* <KYC /> */}
       {/* <Withdraw /> */}
       {/* <KYCScreen /> */}
-      <Profile />
+      {/* <Profile /> */}
+      <Balance /> 
     </>
   )
 }

@@ -5,6 +5,8 @@ export default {
     extend: {
       colors: {
         accent: '#345afb',
+        card: '#F9F9F9',
+        green: '#3CCA5A',
       },
     },
   },
