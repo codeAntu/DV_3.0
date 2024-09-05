@@ -34,10 +34,10 @@ export default function Login() {
               <button className='button' type='submit'>
                 Log In
               </button>
-              <div className='flex w-full items-center gap-1 px-2 '>
-                <hr className='w-full border-[0.5px] border-black/20' />
-                <p className='text-xs text-black/60'>Or</p>
-                <hr className='w-full border-[0.5px] border-black/20' />
+              <div className='flex w-full items-center gap-1 px-2 text-accent/50 '>
+                <hr className='w-full border-[0.5px] border-accent/40' />
+                <p className='text-xs text-accent/50'>Or</p>
+                <hr className='w-full border-[0.5px] border-accent/50 ' />
               </div>
               <button className='button2'>Register</button>
             </div>

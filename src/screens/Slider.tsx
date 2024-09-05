@@ -1,8 +1,8 @@
 export default function Slider() {
   return (
-    <div className='component '>
-      <div className='maxWidth relative'>
-        <div className=''>
+    <div className='component'>
+      <div className='maxWidth relative flex-grow'>
+        <div className='menu'>
           <div className='flexCol gap-9'>
             <div>
               <img src='./icons/appIcon.svg' alt='' className='w-20 pt-3' />
@@ -41,11 +41,11 @@ export default function Slider() {
                 <div>Live Report</div>
               </a>
             </div>
-            <a className='flex items-center gap-3 px-5 text-sm font-semibold text-accent'>
-              <img src='./icons/logOut.svg' alt='' />
-              <div className='text-[#EE3838]'>LogOut</div>
-            </a>
           </div>
+          <a className='flex items-center gap-3 px-5 text-sm font-semibold text-accent'>
+            <img src='./icons/logOut.svg' alt='' />
+            <div className='text-[#EE3838]'>LogOut</div>
+          </a>
         </div>
         <div className='menuHide'></div>
       </div>
