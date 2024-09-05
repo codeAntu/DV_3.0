@@ -6,7 +6,7 @@ export default function Balance() {
           <div className='rounded-full bg-card p-4'>
             <img src='./icons/slider.svg' alt='' className='aspect-square w-5' />
           </div>
-          <div className='flex items-center justify-center gap-1 rounded-full bg-card pr-2'>
+          <div className='flex items-center justify-center gap-1 rounded-full bg-card pr-3'>
             <img src='./icons/appIcon.svg' alt='' className='aspect-square w-12 rounded-full' />
             <div className='line-clamp-1 text-sm font-semibold'>Ananta Karmakar</div>
           </div>

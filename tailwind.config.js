@@ -6,7 +6,9 @@ export default {
       colors: {
         accent: '#345afb',
         card: '#F9F9F9',
+        card2:"#f7f7f7",
         green: '#3CCA5A',
+        blue: '#1F3881',
       },
     },
   },
