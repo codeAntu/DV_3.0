@@ -23,34 +23,36 @@ import Plans from './screens/Plans'
 import Transaction from './screens/Transaction'
 import WithdrawPopup from './screens/WithdrawPopup'
 import WithdrawSurePopup from './screens/WithdrawSurePopup'
+import WithdrawalMethod from './screens/WithdrawalMethod'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      {/* <SplashScreen /> */}
-      {/* <Login /> */}
-      {/* <Register /> */}
-      {/* <Slider /> */}
-      {/* <Otp /> */}
-      {/* <QR /> */}
-      {/* <UPI /> */}
-      {/* <LiveReport /> */}
-      {/* <Ranking /> */}
-      {/* <Notification /> */}
-      {/* <Refer /> */}
-      {/* <MyFamily /> */}
-      {/* <KYC /> */}
-      {/* <Withdraw /> */}
-      {/* <KYCScreen /> */}
-      {/* <Profile /> */}
-      {/* <Balance />  */}
-      {/* <AddMoney /> */}
-      {/* <Plans /> */}
-      {/* <Transaction /> */}
-      {/* <WithdrawPopup /> */}
-      <WithdrawSurePopup />
+      {/* <SplashScreen />
+      <Login />
+      <Register />
+      <Slider />
+      <Otp />
+      <QR />
+      <UPI />
+      <LiveReport />
+      <Ranking />
+      <Notification />
+      <Refer />
+      <MyFamily />
+      <KYC />
+      <Withdraw />
+      <KYCScreen />
+      <Profile />
+      <Balance /> 
+      <AddMoney />
+      <Plans />
+      <Transaction />
+      <WithdrawPopup />
+      <WithdrawSurePopup /> */}
+      <WithdrawalMethod />
     </>
   )
 }

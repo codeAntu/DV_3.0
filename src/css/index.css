@@ -49,7 +49,7 @@
   }
 
   .flexCenter {
-    @apply flex items-center justify-center ;
+    @apply flex items-center justify-center;
   }
   .flexCol {
     @apply flex flex-col;
@@ -92,8 +92,8 @@
   .buttonIcon {
     @apply w-[18px];
   }
-  .button3{
-    @apply flex items-center w-full justify-center gap-2 rounded-full bg-accent/10 p-3.5 text-sm font-semibold text-accent;
+  .button3 {
+    @apply flex w-full items-center justify-center gap-2 rounded-full bg-accent/10 p-3.5 text-sm font-semibold text-accent;
   }
 
   .contentHeader {
@@ -303,9 +303,9 @@
     @apply flexCol flex-grow items-center justify-center gap-1 py-3;
   }
 
-    .menu {
-      @apply fixed -left-[1000px] shadow-xl top-0 z-20 flex h-full w-9/12 max-w-[300px] flex-col justify-between rounded-r-3xl bg-white px-5 py-8 pt-20 duration-500;
-    }
+  .menu {
+    @apply fixed -left-[1000px] top-0 z-20 flex h-full w-9/12 max-w-[300px] flex-col justify-between rounded-r-3xl bg-white px-5 py-8 pt-20 shadow-xl duration-500;
+  }
 
   .menuItems {
     @apply flexCol gap-3;
@@ -324,22 +324,22 @@
   }
 
   .otpInput {
-    @apply aspect-[1.1] w-[2.6rem] flex-grow  appearance-none rounded-xl border border-accent  bg-accent/10 px-4 text-center outline-none outline-offset-0  focus:outline-accent;
+    @apply aspect-[1.1] w-[2.6rem] flex-grow appearance-none rounded-xl border border-accent bg-accent/10 px-4 text-center outline-none outline-offset-0 focus:outline-accent;
   }
 
   .close {
-    @apply animateFedIn fixed left-0 top-0 z-10 hidden h-[100dvh]  w-full bg-black duration-500;
+    @apply animateFedIn fixed left-0 top-0 z-10 hidden h-[100dvh] w-full bg-black duration-500;
   }
 
   .popOver {
-    @apply fixed  left-0 z-20 flex w-full flex-col items-center gap-4 rounded-t-3xl border bg-white p-5 duration-500;
+    @apply fixed -bottom-full left-0 z-20 flex w-full flex-col items-center gap-4 rounded-t-3xl border bg-white p-5 duration-500;
   }
   .popUp {
-    @apply fixed  left-0 top-0 z-30 hidden h-[100dvh] w-full items-center justify-center bg-black/20;
+    @apply fixed left-0 top-0 z-30 hidden h-[100dvh] w-full items-center justify-center bg-black/20;
   }
 
   .detailsCard {
-    @apply flex flex-col gap-4 rounded-[20px]  bg-[#fff] p-5;
+    @apply flex flex-col gap-4 rounded-[20px] bg-[#fff] p-5;
   }
   .detailsCardTitle {
     @apply text-sm font-semibold opacity-30;
@@ -348,11 +348,11 @@
     @apply text-2xl font-semibold text-[#35D49C];
   }
   .detailsCardText {
-    @apply text-balance  font-semibold text-[#35D49C];
+    @apply text-balance font-semibold text-[#35D49C];
   }
 
   .SpecificationItem {
-    @apply flex items-center  gap-2;
+    @apply flex items-center gap-2;
   }
   .SpecificationItemTitle {
     @apply text-[12px] font-semibold text-black/30;
@@ -386,7 +386,7 @@
     @apply text-sm font-[650] text-black;
   }
   .member {
-    @apply flex items-center gap-3 rounded-2xl bg-[#F5F8FF] px-2.5 py-3  text-sm font-semibold text-accent;
+    @apply flex items-center gap-3 rounded-2xl bg-[#F5F8FF] px-2.5 py-3 text-sm font-semibold text-accent;
   }
   .memberIcon {
     @apply w-9;
@@ -422,7 +422,7 @@
     @apply text-[13px] font-semibold text-black/25;
   }
   .rankNum {
-    @apply flex items-center justify-center rounded-full bg-[#F5F8FF] px-5 py-3 text-sm font-bold  text-accent;
+    @apply flex items-center justify-center rounded-full bg-[#F5F8FF] px-5 py-3 text-sm font-bold text-accent;
   }
   .day {
     @apply text-lg font-semibold text-[#090909];
@@ -433,9 +433,9 @@
   .swiper-img {
     @apply aspect-[2/1] h-full w-full rounded-3xl object-cover;
   }
-  
+
   .profileText {
-    @apply text-base font-semibold text-black/40 pt-1;
+    @apply pt-1 text-base font-semibold text-black/40;
   }
   .profileCard {
     @apply flex items-center justify-start gap-3 rounded-lg bg-white px-3 py-4;
@@ -446,9 +446,6 @@
   .profileCardText {
     @apply text-base font-medium text-black/80;
   }
-
-
-
 }
 
 .animateFedIn {
