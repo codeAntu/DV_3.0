@@ -20,6 +20,7 @@ import Profile from './screens/Profile'
 import Balance from './screens/Balance'
 import AddMoney from './screens/AddMoney'
 import Plans from './screens/Plans'
+import Transaction from './screens/Transaction'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -44,7 +45,8 @@ function App() {
       {/* <Profile /> */}
       {/* <Balance />  */}
       {/* <AddMoney /> */}
-      <Plans />
+      {/* <Plans /> */}
+      <Transaction />
     </>
   )
 }
