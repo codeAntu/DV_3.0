@@ -92,6 +92,9 @@
   .buttonIcon {
     @apply w-[18px];
   }
+  .button3{
+    @apply flex items-center w-full justify-center gap-2 rounded-full bg-accent/10 p-3.5 text-sm font-semibold text-accent;
+  }
 
   .contentHeader {
     @apply text-[15px] font-semibold;
