@@ -14,7 +14,7 @@ export default function Plans() {
             <img src='./icons/notification2.svg' alt='' className='aspect-square w-5' />
           </div>
         </div>
-        <div>
+        <div className="grid gap-4">
           <div className='font-bold'>Plans</div>
           <div className='bg-card p-5 grid gap-5 rounded-xl'>
             <div className='grid grid-cols-2 gap-2.5'>
