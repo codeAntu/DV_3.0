@@ -21,6 +21,8 @@ import Balance from './screens/Balance'
 import AddMoney from './screens/AddMoney'
 import Plans from './screens/Plans'
 import Transaction from './screens/Transaction'
+import WithdrawPopup from './screens/WithdrawPopup'
+import WithdrawSurePopup from './screens/WithdrawSurePopup'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -46,7 +48,9 @@ function App() {
       {/* <Balance />  */}
       {/* <AddMoney /> */}
       {/* <Plans /> */}
-      <Transaction />
+      {/* <Transaction /> */}
+      {/* <WithdrawPopup /> */}
+      <WithdrawSurePopup />
     </>
   )
 }

@@ -59,7 +59,7 @@ export default function Transaction() {
             </div>
             <hr />
             <div className='grid gap-3 rounded-b-xl border-l-8 border-accent p-5'>
-              <div className='text-sm font-medium text-black/50'>Transfer to the following Bank Account:</div>
+              <div className='text-sm font-medium text-black/50'>Withdrawn From:</div>
               <div className='grid gap-1'>
                 <div className='flex items-center justify-between gap-2 text-sm font-extrabold'>
                   <div>DV Group</div>

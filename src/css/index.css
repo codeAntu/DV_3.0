@@ -331,8 +331,8 @@
     @apply animateFedIn fixed left-0 top-0 z-10 hidden h-[100dvh]  w-full bg-black duration-500;
   }
 
-  .addBank {
-    @apply fixed -bottom-full left-0 z-20 flex w-full flex-col items-center gap-4 rounded-t-3xl border bg-white p-5 duration-500;
+  .popOver {
+    @apply fixed  left-0 z-20 flex w-full flex-col items-center gap-4 rounded-t-3xl border bg-white p-5 duration-500;
   }
   .popUp {
     @apply fixed  left-0 top-0 z-30 hidden h-[100dvh] w-full items-center justify-center bg-black/20;
