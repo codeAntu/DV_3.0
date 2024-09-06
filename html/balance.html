@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css" />
+  </head>
+  <body>
+    <main id="main" selector="main"></main>
+    <div id="root">
+      <div class='component'>
+        <div class='maxWidth flex h-full min-h-[100dvh] w-full flex-col gap-10 bg-white'>
+          <div class='flex items-center justify-between gap-2 px-2'>
+            <div class='rounded-full bg-card p-4'>
+              <img src='./icons/slider.svg' alt='' class='aspect-square w-5' />
+            </div>
+            <div class='flex items-center justify-center gap-1 rounded-full bg-card pr-3'>
+              <img src='./icons/appIcon.svg' alt='' class='aspect-square w-12 rounded-full' />
+              <div class='line-clamp-1 text-sm font-semibold'>Ananta Karmakar</div>
+            </div>
+            <div class='rounded-full bg-card p-4'>
+              <img src='./icons/notification2.svg' alt='' class='aspect-square w-5' />
+            </div>
+          </div>
+          <div class='grid gap-8'>
+            <div class='grid gap-3'>
+              <div>
+                <div class='text-base text-black/50'>Your Balance</div>
+                <div class='text-[3.5rem] leading-tight'>₹23,30,942</div>
+              </div>
+              <div class='flex items-center justify-start gap-3'>
+                <button class='buttonRounded px-4 py-2.5'>
+                  <img src='./icons/addMoney.svg' alt='' class='w-6' />
+                  <div>Add Money</div>
+                </button>
+                <button class='buttonRounded px-4 py-2.5'>
+                  <img src='./icons/copy.svg' alt='' class='w-6' />
+                  <div>Add Money</div>
+                </button>
+              </div>
+            </div>
+  
+            <div class='grid gap-2'>
+              <div class='text-xl font-medium leading-tight'>Total earned</div>
+              <div class='flex items-baseline gap-2.5 text-green'>
+                <div class='flex items-end gap-1'>
+                  <div class='text-lg font-bold'>₹</div>
+                  <div class='text-5xl font-bold'>0</div>
+                </div>
+                <div class='flex items-center gap-1 leading-tight'>
+                  <div>
+                    <img src='./icons/polygon.svg' alt='' class='w-4' />
+                  </div>
+                  <div class='flex items-baseline'>
+                    <div class='text-xl font-medium'>1.64</div>
+                    <div class='text-sm'>/day</div>
+                  </div>
+                </div>
+              </div>
+              <div class='text-sm font-medium text-black/50'>You will start earning interest from tomorrow</div>
+            </div>
+            <div class='flex items-center justify-around gap-1 rounded-lg bg-card px-2 py-7'>
+              <div class='flex flex-col items-center justify-center gap-3.5'>
+                <img src='./icons/rupee.svg' alt='' class='w-10' />
+                <div class='text-center text-sm leading-tight'>Daily interest earning</div>
+              </div>
+              <div class='flex flex-col items-center justify-center gap-2'>
+                <img src='./icons/rupee0.svg' alt='' class='w-10' />
+                <div class='text-center text-sm leading-tight'>Zero withdrawal charges</div>
+              </div>
+              <div class='flex flex-col items-center justify-center gap-2'>
+                <img src='./icons/percentage.svg' alt='' class='w-10' />
+                <div class='text-center text-sm leading-tight'>Daily interest earning</div>
+              </div>
+            </div>
+  
+            <div class="grid gap-3">
+              <div class="text-lg font-bold">Refer & Earn</div>
+              <div class='profileCard grid gap-4 bg-card'>
+                <div class='leading-tight'>Invite friends, earn 1.5 million—easy referral bonus available!</div>
+                <div class="w-full flex justify-between items-center gap-2 " >
+                  <img src="./icons/add.svg" alt="" class="w-14" />
+                  <img src="./icons/add.svg" alt="" class="w-14" />
+                  <img src="./icons/add.svg" alt="" class="w-14" />
+                  <img src="./icons/add.svg" alt="" class="w-14" />
+                  <img src="./icons/add.svg" alt="" class="w-14" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
