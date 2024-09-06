@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css" />
+  </head>
+  <body>
+    <div>
+      <button id="addBankButton">Add Bank</button>
+      <div id="popUp" class="popOver gap-7">
+        <div class="w-full text-2xl font-semibold">Are you sure want withdraw money through GV Groups?</div>
+
+        <div class="w-full text-sm">Bank Account</div>
+
+        <div class="flex w-full flex-col items-center gap-10 px-5">
+          <div class="flex w-full items-center justify-between gap-2">
+            <div>
+              <div class="text-xs text-black/50">Bank (IFSC:HDFC0004244)</div>
+              <div class="text-xl font-bold">HDFC BANK</div>
+            </div>
+          </div>
+
+          <div class="flex w-full items-center justify-between gap-2">
+            <div>
+              <div class="text-xs text-black/50">Bank (IFSC:HDFC0004244)</div>
+              <div class="text-xl font-bold">HDFC BANK</div>
+            </div>
+            <div class="text-right">
+              <div class="text-xs text-black/50">Account Number</div>
+              <div class="text-xl font-bold">XXXX 2371</div>
+            </div>
+          </div>
+        </div>
+        <div class="flex w-full items-center justify-between gap-4 py-3">
+          <button class="buttonRounded2 flex-grow" id="btn1">No</button>
+          <button class="buttonRounded flex-grow" id="btn2">Yes</button>
+        </div>
+      </div>
+      <div class="close" id="close">Close</div>
+    </div>
+
+    <script>
+      const addBank = document.getElementById('popUp')
+      const closeBtn = document.getElementById('close')
+      const addBankButton = document.getElementById('addBankButton')
+      const btn = document.getElementById('btn1')
+      const btn2 = document.getElementById('btn2')
+
+      addBankButton.onclick = popup
+      closeBtn.onclick = closePopUp
+      btn1.onclick = closePopUp
+      btn2.onclick = closePopUp
+
+      function popup() {
+        addBank.style.bottom = '0'
+        closeBtn.style.display = 'block'
+        closeBtn.style.opacity = '0.5'
+        console.log('clicked')
+      }
+
+      function closePopUp() {
+        addBank.style.bottom = '-100%'
+        closeBtn.style.opacity = '0'
+        setTimeout(() => {
+          closeBtn.style.display = 'none'
+        }, 450)
+      }
+    </script>
+  </body>
+</html>

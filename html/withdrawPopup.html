@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css" />
+  </head>
+  <body>
+    <div>
+      <button id="addBankButton">Click</button>
+      <div id="popUp" class="popOver gap-7">
+        <div class="w-full text-center text-2xl font-semibold">Withdraw from DV Groups</div>
+
+        <div class="flex w-full flex-col items-center gap-5">
+          <div class="flex w-full items-center justify-between gap-2">
+            <div class="text-xl">Withdraw</div>
+            <input
+              type="text"
+              class="w-5/12 border-b-2 border-accent bg-accent/10 px-3 py-2 text-right text-2xl font-semibold outline-none placeholder:text-lg placeholder:font-semibold"
+              placeholder="Amount"
+            />
+          </div>
+          <hr class="w-full border-t border-dashed border-accent" />
+
+          <div class="flex w-full items-center justify-between gap-2">
+            <div class="text-xl">Max. Amount</div>
+            <div class="w-1/2 border-b-2 border-transparent px-3 py-2 text-right text-2xl font-semibold">₹5,000</div>
+          </div>
+          <hr class="w-full border-t border-dashed border-accent" />
+        </div>
+        <div class="grid gap-3 px-5 py-2">
+          <div class="w-1">
+            <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M10.264 7.24L13.912 0.839996H18.328L15.384 7.24H17.624L16.92 14.216H9.56L10.264 7.24ZM0.92 14.216L1.624 7.24L5.272 0.839996H9.688L6.744 7.24H8.984L8.28 14.216H0.92Z"
+                fill="#345AFB"
+              />
+            </svg>
+          </div>
+          Earn up to ₹1000 annually when you stay invested
+        </div>
+        <div class="flex w-full items-center justify-center py-3">
+          <button class="button rounded-full" id="btn">Withdraw Money</button>
+        </div>
+      </div>
+      <div class="close" id="close">Close</div>
+    </div>
+
+    <script>
+      const addBank = document.getElementById('popUp')
+      const closeBtn = document.getElementById('close')
+      const addBankButton = document.getElementById('addBankButton')
+      const btn = document.getElementById('btn')
+
+      addBankButton.onclick = popup
+      closeBtn.onclick = closePopUp
+      btn.onclick = closePopUp
+
+      function popup() {
+        addBank.style.bottom = '0'
+        closeBtn.style.display = 'block'
+        closeBtn.style.opacity = '0.5'
+        console.log('clicked')
+      }
+
+      function closePopUp() {
+        addBank.style.bottom = '-100%'
+        closeBtn.style.opacity = '0'
+        setTimeout(() => {
+          closeBtn.style.display = 'none'
+        }, 450)
+      }
+    </script>
+  </body>
+</html>

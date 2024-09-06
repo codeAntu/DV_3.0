@@ -30,7 +30,7 @@ function App() {
 
   return (
     <>
-      {/* <SplashScreen />
+      <SplashScreen />
       <Login />
       <Register />
       <Slider />
@@ -46,15 +46,13 @@ function App() {
       <Withdraw />
       <KYCScreen />
       <Profile />
-      <Balance /> 
+      <Balance />
       <AddMoney />
       <Plans />
       <Transaction />
       <WithdrawPopup />
       <WithdrawSurePopup />
-      <WithdrawalMethod /> */}
-      {/* <Profile /> */}
-      <Transaction />
+      <WithdrawalMethod />
     </>
   )
 }
