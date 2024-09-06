@@ -1321,7 +1321,7 @@ video {
 }
 @font-face {
   font-family: DMSans;
-  src: url(/fonts/DMSans-VariableFont_opsz,wght.ttf) format('woff2');
+  src: url(./fonts/DMSans-VariableFont_opsz,wght.ttf) format('woff2');
   font-weight: 1 1000;
   font-style: normal;
   font-display: swap;
