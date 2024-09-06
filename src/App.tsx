@@ -53,7 +53,6 @@ function App() {
       <WithdrawPopup />
       <WithdrawSurePopup />
       <WithdrawalMethod /> */}
-      <QR></QR>
     </>
   )
 }
