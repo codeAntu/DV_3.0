@@ -4,18 +4,18 @@ export default function Profile() {
       <div className='maxWidth flex h-full min-h-[100dvh] w-full flex-col justify-between gap-2'>
         <div className='header'>Profile</div>
 
-        <a href="#" className='profileCard'>
+        <a href='#' className='profileCard'>
           <img src='./icons/alert.svg' alt='' className='w-7' />
           <div className='flex flex-grow items-center justify-between'>
             <div className='flex flex-col gap-0'>
               <div className='text[17px] font-extrabold uppercase leading-tight text-[#FF0303]'>Alert </div>
               <div className='text-sm font-normal text-accent'>Your KYC is not completed</div>
             </div>
-            <a href="#">
+            <a href='#'>
               <img src='./icons/rightArrow.svg' alt='' className='optionItemArrow' />
             </a>
           </div>
-        </a >
+        </a>
 
         <div className='profileCard'>
           <img src='./icons/appIcon.svg' alt='' className='aspect-square w-16 rounded-full border border-black/20' />
@@ -24,15 +24,15 @@ export default function Profile() {
               <div className='line-clamp-1 text-lg font-extrabold leading-tight text-accent'>CodeAntu</div>
               <div className='line-clamp-1 font-normal text-black/50'>codeantu@gmail.com</div>
             </div>
-            <a href="#">
+            <a href='#'>
               <img src='./icons/edit.svg' alt='' className='w-7' />
             </a>
           </div>
         </div>
 
-        <div className="grid gap-2"> 
+        <div className='grid gap-2'>
           <div className='profileText'>Account</div>
-          <div className='grid gap-4 rounded-lg bg-white pl-3 pr-4 py-5'>
+          <div className='grid gap-4 rounded-2xl bg-white py-5 pl-3 pr-4'>
             <div className='flex flex-grow items-center justify-between'>
               <div className='flex flex-grow items-center gap-3'>
                 <div className='profileCardIcon'>
@@ -40,11 +40,11 @@ export default function Profile() {
                 </div>
                 <div className='profileCardText'>Account</div>
               </div>
-              <a href="#">
+              <a href='#'>
                 <img src='./icons/rightArrow.svg' alt='' className='optionItemArrow' />
               </a>
             </div>
-            <hr className=" border-black/5 border-t"/>
+            <hr className='border-t border-black/5' />
             <div className='flex flex-grow items-center justify-between'>
               <div className='flex flex-grow items-center gap-3'>
                 <div className='profileCardIcon'>
@@ -52,11 +52,11 @@ export default function Profile() {
                 </div>
                 <div className='profileCardText'>Privacy</div>
               </div>
-              <a href="#">
+              <a href='#'>
                 <img src='./icons/rightArrow.svg' alt='' className='optionItemArrow' />
               </a>
             </div>
-            <hr className=" border-black/5 border-t"/>
+            <hr className='border-t border-black/5' />
             <div className='flex flex-grow items-center justify-between'>
               <div className='flex flex-grow items-center gap-3'>
                 <div className='profileCardIcon'>
@@ -64,13 +64,13 @@ export default function Profile() {
                 </div>
                 <div className='profileCardText'>Privacy</div>
               </div>
-              <a href="#">
+              <a href='#'>
                 <img src='./icons/rightArrow.svg' alt='' className='optionItemArrow' />
               </a>
             </div>
           </div>
-          <div className='profileText '>App Setting</div>
-          <div className='grid gap-4 rounded-lg bg-white pl-3 pr-4 py-5'>
+          <div className='profileText'>App Setting</div>
+          <div className='grid gap-4 rounded-2xl bg-white py-5 pl-3 pr-4'>
             <div className='flex flex-grow items-center justify-between'>
               <div className='flex flex-grow items-center gap-3'>
                 <div className='profileCardIcon'>
@@ -78,17 +78,14 @@ export default function Profile() {
                 </div>
                 <div className='profileCardText'>Language</div>
               </div>
-              <a href="" className="flex justify-center items-center gap-2 ">
-                <div className="text-black/50  text-sm font-medium">
-                  English
-                </div>
+              <a href='' className='flex items-center justify-center gap-2'>
+                <div className='text-sm font-medium text-black/50'>English</div>
                 <img src='./icons/rightArrow.svg' alt='' className='optionItemArrow' />
               </a>
             </div>
-           
           </div>
           <div className='profileText'>Others</div>
-          <div className='grid gap-4 rounded-lg bg-white pl-3 pr-4 py-5'>
+          <div className='grid gap-4 rounded-2xl bg-white py-5 pl-3 pr-4'>
             <div className='flex flex-grow items-center justify-between'>
               <div className='flex flex-grow items-center gap-3'>
                 <div className='profileCardIcon'>
@@ -96,7 +93,7 @@ export default function Profile() {
                 </div>
                 <div className='profileCardText'>About Us</div>
               </div>
-              <a href="#">
+              <a href='#'>
                 <img src='./icons/rightArrow.svg' alt='' className='optionItemArrow' />
               </a>
             </div>
@@ -107,12 +104,11 @@ export default function Profile() {
                 </div>
                 <div className='profileCardText'>Rate Us</div>
               </div>
-              <a href="#">
+              <a href='#'>
                 <img src='./icons/rightArrow.svg' alt='' className='optionItemArrow' />
               </a>
             </div>
           </div>
-          
         </div>
       </div>
     </div>

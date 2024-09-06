@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css" />
+  </head>
+  <body>
+    <main id="main" selector="main"></main>
+    <div id="root">
+      <div class='component flex justify-center  '>
+        <div class='maxWidth flexCol flex-grow gap-4 '>
+          <div class='header'>KYC Screen</div>
+          <div class='content'>
+            <div class='flexCol gap-5 '>
+              <div class='flexCol gap-2'>
+                <div class='inputContainer'>
+                  <div class='inputText'>Full Name</div>
+                  <div class='inputBox'>
+                    <input type='text' class='input' placeholder='Enter your Full Name' />
+                  </div>
+                </div>
+               
+                <div class='flex flex-col gap-1.5'>
+                  <div class='inputContainer'>
+                    <div class='inputText'>Mobile Number </div>
+                    <div class='inputBox'>
+                      <input type='text' class='input' placeholder='Enter your Mobile Number' />
+                    </div>
+                  </div>
+                  <div class='inputContainer'>
+                    <div class='inputText'>Address</div>
+                    <div class='inputBox'>
+                      <input type='text' class='input' placeholder='Enter your Address' />
+                    </div>
+                  </div>
+                  <div class='inputContainer'>
+                    <div class='inputText'>Country</div>
+                    <div class='inputBox'>
+                      <input type='text' class='input' placeholder='Enter your Country' />
+                    </div>
+                  </div>
+                  <div class='inputContainer'>
+                    <div class='inputText'>State</div>
+                    <div class='inputBox'>
+                      <input type='text' class='input' placeholder='Enter your State' />
+                    </div>
+                  </div>
+                  <div class='inputContainer'>
+                    <div class='inputText'>ID Proof</div>
+                    <label class='border border-accent/80 bg-accent/5 rounded-[14px] h-28 flex justify-center items-center'>
+                      <input type='file' class='input hidden' placeholder='Enter your State'  />
+                      <div class="text-accent text-sm font-semibold">Upload ID proof</div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <div class='flexCenter w-full py-4'>
+              <button class='button'>
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
