@@ -1073,6 +1073,10 @@ video {
 .border-transparent {
   border-color: transparent;
 }
+.bg-\[\#FEFEFE\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 254 254 / var(--tw-bg-opacity));
+}
 .bg-accent {
   --tw-bg-opacity: 1;
   background-color: rgb(52 90 251 / var(--tw-bg-opacity));

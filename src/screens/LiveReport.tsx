@@ -1,6 +1,6 @@
 export default function LiveReport() {
   return (
-    <div className='component pb-24'>
+    <div className='component bg-[#FEFEFE] pb-24'>
       <div className='maxWidth flexCol gap-8'>
         <div className='headerContainer'>
           <div className='flex items-center gap-2'>
