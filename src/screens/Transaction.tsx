@@ -22,7 +22,7 @@ export default function Transaction() {
             <hr />
             <div className='grid p-5'>
               <div className='flex items-center justify-start gap-2'>
-                <img src='./icons/tick.svg' alt='' className='w-5' />
+                <img src='./icons/tick_gray.svg' alt='' className='w-5' />
                 <div className='flex flex-grow items-center justify-between text-xs font-semibold'>
                   <div>Initiated from DV Groups</div>
                   <div>14 Nov 21 | 10:26 am</div>
