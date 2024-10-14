@@ -10,110 +10,112 @@
   <body>
     <main id="main" selector="main"></main>
     <div id="root">
-      <div class='component'>
-        <div class='maxWidth flex h-full min-h-[100dvh] w-full flex-col justify-between gap-2'>
-          <div class='header'>Profile</div>
-  
-          <a href='#' class='profileCard  '>
-            <img src='./icons/alert.svg' alt='' class='w-7' />
-            <div class='flex flex-grow items-center justify-between'>
-              <div class='flex flex-col gap-0'>
-                <div class='text[17px] font-extrabold uppercase leading-tight text-[#FF0303]'>Alert </div>
-                <div class='text-sm font-normal text-accent'>Your KYC is not completed</div>
+      <div class="component">
+        <div class="maxWidth flex h-full min-h-[100dvh] w-full flex-col gap-2">
+          <div class="header">Profile</div>
+
+          <div class="grid gap-5 py-1">
+            <a href="#" class="profileCard">
+              <img src="./icons/alert.svg" alt="" class="w-7" />
+              <div class="flex flex-grow items-center justify-between">
+                <div class="flex flex-col gap-0">
+                  <div class="text[17px] font-extrabold uppercase leading-tight text-[#FF0303]">Alert</div>
+                  <div class="text-sm font-normal text-accent">Your KYC is not completed</div>
+                </div>
+                <img src="./icons/rightArrow.svg" alt="" class="optionItemArrow" />
               </div>
-                <img src='./icons/rightArrow.svg' alt='' class='optionItemArrow' />
-            </div>
-          </a>
-  
-          <div class='profileCard'>
-            <img src='./icons/appIcon.svg' alt='' class='aspect-square w-16 rounded-full border border-black/20' />
-            <div class='flex flex-grow items-center justify-between'>
-              <div class='flex flex-col gap-0'>
-                <div class='line-clamp-1 text-lg font-extrabold leading-tight text-accent'>CodeAntu</div>
-                <div class='line-clamp-1 font-normal text-black/50'>codeantu@gmail.com</div>
+            </a>
+
+            <div class="profileCard">
+              <img src="./icons/appIcon.svg" alt="" class="aspect-square w-16 rounded-full border border-black/20" />
+              <div class="flex flex-grow items-center justify-between">
+                <div class="flex flex-col gap-0">
+                  <div class="line-clamp-1 text-lg font-extrabold leading-tight text-accent">CodeAntu</div>
+                  <div class="line-clamp-1 font-normal text-black/50">codeantu@gmail.com</div>
+                </div>
+                <a href="#">
+                  <img src="./icons/edit.svg" alt="" class="w-7" />
+                </a>
               </div>
-              <a href='#'>
-                <img src='./icons/edit.svg' alt='' class='w-7' />
-              </a>
             </div>
           </div>
-  
-          <div class='grid gap-2'>
-            <div class='profileText'>Account</div>
-            <div class='grid gap-4 rounded-2xl bg-white py-5 pl-3 pr-4'>
-              <div class='flex flex-grow items-center justify-between'>
-                <div class='flex flex-grow items-center gap-3'>
-                  <div class='profileCardIcon'>
-                    <img src='./icons/profile2.svg' alt='' class='w-7' />
+
+          <div class="grid gap-2">
+            <div class="profileText">Account</div>
+            <div class="grid gap-4 rounded-2xl bg-white py-5 pl-3 pr-4">
+              <div class="flex flex-grow items-center justify-between">
+                <div class="flex flex-grow items-center gap-3">
+                  <div class="profileCardIcon">
+                    <img src="./icons/profile2.svg" alt="" class="w-7" />
                   </div>
-                  <div class='profileCardText'>Account</div>
+                  <div class="profileCardText">Account</div>
                 </div>
-                <a href='#'>
-                  <img src='./icons/rightArrow.svg' alt='' class='optionItemArrow' />
+                <a href="#">
+                  <img src="./icons/rightArrow.svg" alt="" class="optionItemArrow" />
                 </a>
               </div>
-              <hr class='border-t border-black/5' />
-              <div class='flex flex-grow items-center justify-between'>
-                <div class='flex flex-grow items-center gap-3'>
-                  <div class='profileCardIcon'>
-                    <img src='./icons/privacy.svg' alt='' class='w-7' />
+              <hr class="border-t border-black/5" />
+              <div class="flex flex-grow items-center justify-between">
+                <div class="flex flex-grow items-center gap-3">
+                  <div class="profileCardIcon">
+                    <img src="./icons/privacy.svg" alt="" class="w-7" />
                   </div>
-                  <div class='profileCardText'>Privacy</div>
+                  <div class="profileCardText">Privacy</div>
                 </div>
-                <a href='#'>
-                  <img src='./icons/rightArrow.svg' alt='' class='optionItemArrow' />
+                <a href="#">
+                  <img src="./icons/rightArrow.svg" alt="" class="optionItemArrow" />
                 </a>
               </div>
-              <hr class='border-t border-black/5' />
-              <div class='flex flex-grow items-center justify-between'>
-                <div class='flex flex-grow items-center gap-3'>
-                  <div class='profileCardIcon'>
-                    <img src='./icons/privacy2.svg' alt='' class='w-7' />
+              <hr class="border-t border-black/5" />
+              <div class="flex flex-grow items-center justify-between">
+                <div class="flex flex-grow items-center gap-3">
+                  <div class="profileCardIcon">
+                    <img src="./icons/privacy2.svg" alt="" class="w-7" />
                   </div>
-                  <div class='profileCardText'>Privacy</div>
+                  <div class="profileCardText">Privacy</div>
                 </div>
-                <a href='#'>
-                  <img src='./icons/rightArrow.svg' alt='' class='optionItemArrow' />
-                </a>
-              </div>
-            </div>
-            <div class='profileText'>App Setting</div>
-            <div class='grid gap-4 rounded-2xl bg-white py-5 pl-3 pr-4'>
-              <div class='flex flex-grow items-center justify-between'>
-                <div class='flex flex-grow items-center gap-3'>
-                  <div class='profileCardIcon'>
-                    <img src='./icons/language.svg' alt='' class='w-7' />
-                  </div>
-                  <div class='profileCardText'>Language</div>
-                </div>
-                <a href='' class='flex items-center justify-center gap-2'>
-                  <div class='text-sm font-medium text-black/50'>English</div>
-                  <img src='./icons/rightArrow.svg' alt='' class='optionItemArrow' />
+                <a href="#">
+                  <img src="./icons/rightArrow.svg" alt="" class="optionItemArrow" />
                 </a>
               </div>
             </div>
-            <div class='profileText'>Others</div>
-            <div class='grid gap-4 rounded-2xl bg-white py-5 pl-3 pr-4'>
-              <div class='flex flex-grow items-center justify-between'>
-                <div class='flex flex-grow items-center gap-3'>
-                  <div class='profileCardIcon'>
-                    <img src='./icons/about.svg' alt='' class='w-7' />
+            <div class="profileText">App Setting</div>
+            <div class="grid gap-4 rounded-2xl bg-white py-5 pl-3 pr-4">
+              <div class="flex flex-grow items-center justify-between">
+                <div class="flex flex-grow items-center gap-3">
+                  <div class="profileCardIcon">
+                    <img src="./icons/language.svg" alt="" class="w-7" />
                   </div>
-                  <div class='profileCardText'>About Us</div>
+                  <div class="profileCardText">Language</div>
                 </div>
-                <a href='#'>
-                  <img src='./icons/rightArrow.svg' alt='' class='optionItemArrow' />
+                <a href="" class="flex items-center justify-center gap-2">
+                  <div class="text-sm font-medium text-black/50">English</div>
+                  <img src="./icons/rightArrow.svg" alt="" class="optionItemArrow" />
                 </a>
               </div>
-              <div class='flex flex-grow items-center justify-between'>
-                <div class='flex flex-grow items-center gap-3'>
-                  <div class='profileCardIcon'>
-                    <img src='./icons/rate.svg' alt='' class='w-7 p-0.5' />
+            </div>
+            <div class="profileText">Others</div>
+            <div class="grid gap-4 rounded-2xl bg-white py-5 pl-3 pr-4">
+              <div class="flex flex-grow items-center justify-between">
+                <div class="flex flex-grow items-center gap-3">
+                  <div class="profileCardIcon">
+                    <img src="./icons/about.svg" alt="" class="w-7" />
                   </div>
-                  <div class='profileCardText'>Rate Us</div>
+                  <div class="profileCardText">About Us</div>
                 </div>
-                <a href='#'>
-                  <img src='./icons/rightArrow.svg' alt='' class='optionItemArrow' />
+                <a href="#">
+                  <img src="./icons/rightArrow.svg" alt="" class="optionItemArrow" />
+                </a>
+              </div>
+              <div class="flex flex-grow items-center justify-between">
+                <div class="flex flex-grow items-center gap-3">
+                  <div class="profileCardIcon">
+                    <img src="./icons/rate.svg" alt="" class="w-7 p-0.5" />
+                  </div>
+                  <div class="profileCardText">Rate Us</div>
+                </div>
+                <a href="#">
+                  <img src="./icons/rightArrow.svg" alt="" class="optionItemArrow" />
                 </a>
               </div>
             </div>

@@ -1158,6 +1158,10 @@ video {
   padding-left: 9px;
   padding-right: 9px;
 }
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
 .py-1\.5 {
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
@@ -1434,6 +1438,34 @@ video {
   to {
     opacity: 0.5;
   }
+}
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.375rem;
+  border-radius: 9999px;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.statusImg {
+  width: 1.25rem;
+}
+.pending {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 214 0 / var(--tw-bg-opacity));
+}
+.approved {
+  --tw-bg-opacity: 1;
+  background-color: rgb(53 212 156 / var(--tw-bg-opacity));
+}
+.rejected {
+  --tw-bg-opacity: 1;
+  background-color: rgb(238 56 56 / var(--tw-bg-opacity));
 }
 .placeholder\:text-lg::-moz-placeholder {
   font-size: 1.125rem;

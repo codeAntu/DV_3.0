@@ -1,32 +1,33 @@
 export default function Profile() {
   return (
     <div className='component'>
-      <div className='maxWidth flex h-full min-h-[100dvh] w-full flex-col justify-between gap-2'>
+      <div className='maxWidth flex h-full min-h-[100dvh] w-full flex-col gap-2'>
         <div className='header'>Profile</div>
 
-        <a href='#' className='profileCard'>
-          <img src='./icons/alert.svg' alt='' className='w-7' />
-          <div className='flex flex-grow items-center justify-between'>
-            <div className='flex flex-col gap-0'>
-              <div className='text[17px] font-extrabold uppercase leading-tight text-[#FF0303]'>Alert </div>
-              <div className='text-sm font-normal text-accent'>Your KYC is not completed</div>
-            </div>
-            <a href='#'>
-              <img src='./icons/rightArrow.svg' alt='' className='optionItemArrow' />
-            </a>
-          </div>
-        </a>
+        <div className='grid gap-5 py-1'>
+          <a href='#' className='profileCard'>
+            <img src='./icons/alert.svg' alt='' className='w-7' />
+            <div className='flex flex-grow items-center justify-between'>
+              <div className='flex flex-col gap-0'>
+                <div className='text[17px] font-extrabold uppercase leading-tight text-[#FF0303]'>Alert </div>
+                <div className='text-sm font-normal text-accent'>Your KYC is not completed</div>
+              </div>
 
-        <div className='profileCard'>
-          <img src='./icons/appIcon.svg' alt='' className='aspect-square w-16 rounded-full border border-black/20' />
-          <div className='flex flex-grow items-center justify-between'>
-            <div className='flex flex-col gap-0'>
-              <div className='line-clamp-1 text-lg font-extrabold leading-tight text-accent'>CodeAntu</div>
-              <div className='line-clamp-1 font-normal text-black/50'>codeantu@gmail.com</div>
+              <img src='./icons/rightArrow.svg' alt='' className='optionItemArrow' />
             </div>
-            <a href='#'>
-              <img src='./icons/edit.svg' alt='' className='w-7' />
-            </a>
+          </a>
+
+          <div className='profileCard'>
+            <img src='./icons/appIcon.svg' alt='' className='aspect-square w-16 rounded-full border border-black/20' />
+            <div className='flex flex-grow items-center justify-between'>
+              <div className='flex flex-col gap-0'>
+                <div className='line-clamp-1 text-lg font-extrabold leading-tight text-accent'>CodeAntu</div>
+                <div className='line-clamp-1 font-normal text-black/50'>codeantu@gmail.com</div>
+              </div>
+              <a href='#'>
+                <img src='./icons/edit.svg' alt='' className='w-7' />
+              </a>
+            </div>
           </div>
         </div>
 

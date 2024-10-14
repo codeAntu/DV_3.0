@@ -10,6 +10,6 @@ import Withdraw from './screens/Withdraw.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Transaction />
+    <Profile />
   </StrictMode>
 )
